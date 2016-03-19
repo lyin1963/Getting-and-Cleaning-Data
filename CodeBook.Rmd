@@ -1,0 +1,71 @@
+## Assignment Code Book
+### Data processing
+The data are merged from testing dataset and training dataset.  The label in merged dataset will come from feature data file.  The data are using mean and std two functions to extract some information.  
+
+### Function description
+Mean(): Mean Value
+
+Std(): Standard deviation
+
+Mad(): Median deviation
+
+Max(): Largest value in array
+
+Min(): Smallest value in array
+
+Sma(): Signal magnitude area
+
+Engergy(): Energy measure.  Sum of the squares divided by the number of values
+
+Iqr(): Interquartile range
+
+Entropy(): Signal entropy
+
+arCoeff(): Autoregression coefficients with Burg order equal to 4
+
+Correlation(): correlation coefficient between two signals
+
+Maxlands(): Index of the frequency component with largest magnitude
+
+MeanFreq(): Weithted average of the frequency components to obtain a mean frequency
+
+Skewness(): Skewness of the frequency domain signal
+
+Kurtosis(): Kurtosis of the frequency domain signal
+
+BandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window
+
+Angle(): Angle between to vectors
+
+### Feature of each variable.  
+The t and f lowercase letter in front of each variable represent time domain and frequent domain data. 
+
+tBodyAcc
+
+tGravityAcc
+
+tBodyAccJerk
+
+tBodyGyro
+
+tBodyGyroJerk
+
+tBodyAccMa
+
+tBodyAccJerkMag
+
+tBodyGyroMag
+
+fBodyAcc
+
+fBodyAccJerk
+
+fBodyGyro
+
+fBodyAccMag
+
+fBodyBodyAccJerkMag
+
+fBodyBodyGyroMag
+
+fBodyBodyGyroJerkMag

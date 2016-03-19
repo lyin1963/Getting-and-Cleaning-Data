@@ -1,0 +1,20 @@
+###Assignment README
+
+*Purpose 
+-----------------
+The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
+
+*Objectives
+-----------------
+The repo contains my project run_analysis.R file.  There are two outcome files,  The first one is the merged.txt file which merges the the training and the test datasets to become one data file.  The second one is the independent tidy data file with the average of each variable for each activity and each subject. 
+
+*run_analysis.R
+-----------------
+1. The **UCI HAR Dataset** data set had been download from website and puts the zip file into the working directrory. After that, the zip file been unzips into the UCI HAR Dataset folder. 
+2. Using the function cbind to combine three datasets:Subject, Xdata, Ydata, into one data frame.
+3. Using the function grep to extracts "mean" and "standard deviation" from the features dataset.
+4. using the function gsup to descriptive activity name in the dataset.
+5. save the merged dataset into merged.txt.
+6. using the function aggregate to average each variable for each variable of each activity and each subject. 
+6. save the second dataset into seconddata.txt.
+
